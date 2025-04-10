@@ -8,7 +8,7 @@ La actividad ha sido realizada en ubuntu, es por ello que los comandos que hay s
     sudo docker image build --tag 122fcproyecto1:1.0 .
     ```
 
-- **Paso 2.** Ejecutar el contenedor en el puerto 80, 116fcproyecto1
+- **Paso 2.** Ejecutar el contenedor en el puerto 80, 122fcproyecto1
     ```
     sudo docker container run -d -p 80:80 --name 122fcproyecto1 122fcproyecto1:1.0
     ```
